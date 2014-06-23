@@ -46,15 +46,15 @@ It makes outputs more easy to understand.
 
 ```bash
 
-function info {
+info() {
     echo -e "\033[34m$@\033[m" # blue
 }
 
-function warn {
+warn() {
     echo -e "\033[33m$@\033[m" # yellow
 }
 
-function error {
+error() {
     echo -e "\033[31m$@\033[m" # red
 }
 ```
